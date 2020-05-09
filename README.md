@@ -18,8 +18,7 @@ I build an Anomaly Detection Model to identify which client has paid his credit 
 The dataset contains the credit information from more than 30000 clients with multiple attributes including marital status, education, age, and payment history, etc.
 The classes were imbalanced.To overcome class imbalance,I used downsampling method
 
-![Plot of Both Classes](C:\Users\maryam\Pictures\ana1.png)
-
+![ana1](https://user-images.githubusercontent.com/33470542/81461380-47ce6380-9179-11ea-994e-3c7ecca1fc7a.png)
 
 
 # Modeling
@@ -32,8 +31,9 @@ Also I used two methods for finding hyperparameters:GridSearch and BayesianOptim
 
 I fould that EllipticEnvelope performed better than IsolationForest,OneClassSVM and LocalOutlierFactor on both methods, and in first method, f1 score is better for minority class in EllipticEnvelope model.
 
-![Confusion Matrix for EllipticEnvelope in first method](C:\Users\maryam\Pictures\ana3.png)
+![ana3](https://user-images.githubusercontent.com/33470542/81461401-78160200-9179-11ea-997b-4343036fb09b.png)
 
-![Confusion Matrix for EllipticEnvelope in second method](C:\Users\maryam\Pictures\ana2.png)
+![ana2](https://user-images.githubusercontent.com/33470542/81461416-94b23a00-9179-11ea-95a0-607ab3aca2de.png)
+
 
 Using BayesianOptimization gave me better model in comparision with GridSearch despite of its speed. BayesianOptimization is not a time consuming method and we can find the hyperparameters very quickly
