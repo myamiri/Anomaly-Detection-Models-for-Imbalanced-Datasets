@@ -17,6 +17,7 @@ I build an Anomaly Detection Model to identify which client has paid his credit 
 
 The dataset contains the credit information from more than 30000 clients with multiple attributes including marital status, education, age, and payment history, etc.
 The classes were imbalanced.To make my dataset balanced,I used downsampling method.
+
 You can see the imbalance of the dataset with this plot :
 
 ![ana1](https://user-images.githubusercontent.com/33470542/81461380-47ce6380-9179-11ea-994e-3c7ecca1fc7a.png)
@@ -30,7 +31,9 @@ Also I used two methods for finding hyperparameters :  GridSearch and BayesianOp
 
 # Result
 
-I fould that Elliptic Envelope performed better than Isolation Forest,OneClass SVM and Local Outlier Factor on both methods, and in the first method, f1 score is better for minority class in Elliptic Envelope model.
+I fould that Elliptic Envelope performed better than Isolation Forest,OneClass SVM and Local Outlier Factor on both methods. 
+I got higher f1 score, when I traind Elliptic Envelope model on just one class in comparission with trainnig the model on both classes.
+You can see the confusion matrix of both methods below :
 
 The confusion matrix when I trained Elliptic Envelope model on just one class :
 
