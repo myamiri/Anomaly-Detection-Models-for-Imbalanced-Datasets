@@ -2,16 +2,16 @@
 
 # Business Problem
 
-For banks, risk management and default detection have always been a crucial part in issuing credit cards. Defaults on credit card bill payment can result in a great financial loss. 
-To reduce or even prevent loss of this kind, banks need to determine appropriately given credit for each specific client based on their information.
+For banks managing the credit risk of their clients has always been a fundamental part of their business. Defaults on credit card bill payment can result in a great financial loss. 
+To minimize this type of loss, banks need to accurately determine the likelihood that a particular credit card holder will pay their bill.
 Back in the great recession, many credit card issuers faced a credit card debt crisis. 
-Card-issuing banks over-issued credit cards to unqualified applicants to gain market shares.
+Card-issuing banks over-issued credit cards to unqualified applicants in an attempt to increase their market share.
 At the same time, cardholders, irrespective of their repayment ability, overused credit cards for consumption purposes, and accumulated heavy debts. 
 This crisis caused a blow to consumer financial confidence and presented a big challenge for both banks and cardholders.
 
 # Solution
 
-I build an Anomaly Detection Model to identify which client has paid his credit card statement and which one not.
+I built an Anomaly Detection Model to identify which clients paid their credit card bill and which did not.
 
 # Data
 
