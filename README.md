@@ -2,21 +2,17 @@
 
 # Business Problem
 
-For banks managing the credit risk of their clients has always been a fundamental part of their business. Defaults on credit card bill payment can result in a great financial loss. 
-To minimize this type of loss, banks need to accurately determine the likelihood that a particular credit card holder will pay their bill.
-Back in the great recession, many credit card issuers faced a credit card debt crisis. 
-Card-issuing banks over-issued credit cards to unqualified applicants in an attempt to increase their market share.
-At the same time, cardholders, irrespective of their repayment ability, overused credit cards for consumption purposes, and accumulated heavy debts. 
-This crisis caused a blow to consumer financial confidence and presented a big challenge for both banks and cardholders.
+For banks, managing the credit risk of their clients has always been a fundamental part of their business. Credit card defaults obviously represent a significant financial risk for these institutions. To minimize this type of potential loss, banks need to accurately determine the likelihood that a particular credit card holder will pay them back. During the Great Recession, many credit card issuers were forced to deal with a surge in defaults. It turns out that card-issuing banks over-issued credit to unqualified applicants in an attempt to increase their market share. At the same time, cardholders, irrespective of their repayment ability, overused credit cards for consumption purposes, and accumulated heavy debts. This crisis caused a blow to consumer financial confidence and presented a big challenge for both banks and cardholders.
 
 # Solution
 
-I built an Anomaly Detection Model to identify which clients paid their credit card bill and which did not.
+Recent advances in machine learning have essentially collapsed the cost of predictions across virtually every domain that operates on certain algorithms and generates data (which is to say, every industry). For this specific business problem, I built an Anomaly Detection Model to identify which clients paid their credit card bill and which did not. After training and fine-tuning, I used f1 score to show the model's performance.
 
 # Data
 
 The dataset contains credit information from more than 30000 clients with multiple attributes including marital status, education, age, and payment history, etc.
-The classes were imbalanced. To make my dataset balanced, I used the downsampling method.
+The classes were imbalanced. Class imbalanced datasets occur in many real-world applications where the class distributions of data are highly imbalanced. For the two-class case, one assumes that the minority or rare class is the positive class, and the majority class is the negative class. Often the minority class is very infrequent, such as 1% of the dataset. If one applies most traditional classifiers on the dataset, they are likely to predict everything as negative (the majority class). This was often regarded as a problem in learning from highly imbalanced datasets.
+To make my dataset balanced, I used the downsampling method.
 
 You can see the imbalance of the dataset with this plot :
 
