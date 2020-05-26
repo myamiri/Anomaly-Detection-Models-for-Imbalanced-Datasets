@@ -11,8 +11,12 @@ Recent advances in machine learning have essentially collapsed the cost of predi
 # Data
 
 The dataset contains credit information from more than 30000 clients with multiple attributes including marital status, education, age, and payment history, etc.
+
 The classes were imbalanced. Class imbalanced datasets occur in many real-world applications where the class distributions of data are highly imbalanced. For the two-class case, one assumes that the minority or rare class is the positive class, and the majority class is the negative class. Often the minority class is very infrequent, such as 1% of the dataset. If one applies most traditional classifiers on the dataset, they are likely to predict everything as negative (the majority class). This was often regarded as a problem in learning from highly imbalanced datasets.
+
 To make my dataset balanced, I used the downsampling method.
+
+
 
 You can see the imbalance of the dataset with this plot :
 
