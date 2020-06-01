@@ -63,4 +63,4 @@ The confusion matrix when I trained Elliptic Envelope model on both classes:
 ![ana2](https://user-images.githubusercontent.com/33470542/81461416-94b23a00-9179-11ea-95a0-607ab3aca2de.png)
 
 
-Using BayesianOptimization gave me better results in comparison with GridSearch and I found the hyperparameters very quickly.
+Using BayesianOptimization gave me better results in comparison with GridSearch and I found the hyperparameters very quickly
