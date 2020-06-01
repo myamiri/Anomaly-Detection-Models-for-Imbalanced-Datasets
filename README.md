@@ -29,6 +29,7 @@ You can see the imbalance of the dataset with this plot :
 I compared four Unsupervised Anomaly Detection Models: Elliptic Envelope, Isolation Forest, OneClass SVM, and Local Outlier Factor. 
 Our strategy employs two noteworthy approaches. First, I tried to train the models using just the majority class as inliers. Second, I used both classes to train the models.
 Also, I used two methods for finding hyperparameters:  GridSearch and BayesianOptimization.
+
 I have shown the result of classification report for Isolation Forest.
 
 Classification report for Isolatin Forest training on one class using Grid Search: 
