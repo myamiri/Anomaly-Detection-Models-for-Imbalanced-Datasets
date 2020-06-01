@@ -52,15 +52,26 @@ Classification report for Isolatin Forest training on both classes using Bayesia
 
 I found that Elliptic Envelope performed better than Isolation Forest, OneClassSVM, and Local Outlier Factor on both methods. 
 I got a higher f1 score when I trained the EllipticEnvelope model on just one class in comparison with training the model on both classes.
-You can see the confusion matrix of both methods below:
+You can see the confusion matrix and classification report of both methods below:
 
 The confusion matrix when I trained Elliptic Envelope model on just one class:
 
 ![ana3](https://user-images.githubusercontent.com/33470542/81461401-78160200-9179-11ea-997b-4343036fb09b.png)
+
+The classification report when I trained Elliptic Envelope model on just one class:
+
+![EEB1](https://user-images.githubusercontent.com/33470542/83453091-dad08580-a427-11ea-9a60-fbbc86a0fc52.png)
+
+
 
 The confusion matrix when I trained Elliptic Envelope model on both classes:
 
 ![ana2](https://user-images.githubusercontent.com/33470542/81461416-94b23a00-9179-11ea-95a0-607ab3aca2de.png)
 
 
-Using BayesianOptimization gave me better results in comparison with GridSearch and I found the hyperparameters very quickly
+The classification report when I trained Elliptic Envelope model on both classes:
+
+![EEB2](https://user-images.githubusercontent.com/33470542/83453195-0eabab00-a428-11ea-903b-ad9d7a69f1b8.png)
+
+
+Using BayesianOptimization gave me better results in comparison with GridSearch and I found the hyperparameters very quickly.
