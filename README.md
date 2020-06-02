@@ -52,11 +52,10 @@ Classification report for Isolatin Forest training on both classes using Bayesia
 
 
 - Model is biased towards predicting not paid.
-- There is a tension between probability threshold and the number of employees who are accurately predicted as potential churners. A high probability threshold would end in a high number of errors. The business relevance is predict attrition well, rather than non attrition hence a lower probability threshold is chosen.
 - The confusion matrix when I trained Elliptic Envelope model on just one class shows that of all the people who are not paying their credit card, our algorithm identifies about 65% of them accurately. 
 - Elliptic Envelope performed better than Isolation Forest, OneClassSVM, and Local Outlier Factor on both methods, as it identifies higher percent of people are not paying their credit card accurately.
-- I got a f1 score  equal 0.67 when I trained the EllipticEnvelope model on just one class and f1 score equal 0.48 when I trained the EllipticEnvelope model on both classes.
-- By using BayesianOptimization, I got me better results in comparison with GridSearch and I found the hyperparameters very quickly.
+- I got a f1 score  equal 0.67 when I trained the Elliptic Envelope model on just one class and f1 score equal 0.48 when I trained the Elliptic Envelope model on both classes.
+- By using Bayesian Optimization, I got me better results in comparison with Grid Search and I found the hyperparameters very quickly.
 
 
 You can see the confusion matrix and classification report of both methods below:
